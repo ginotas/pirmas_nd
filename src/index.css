@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.trains {
+ display: flex;
+ 
+  width: 500px;
+  align-items: center;
+  padding: 21px;
+
+
+}
+
+.trains > img {
+
+  max-width: 50%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: azure;
+  
+}
+
+.trains > span {  
+  color: brown;
+
+}
